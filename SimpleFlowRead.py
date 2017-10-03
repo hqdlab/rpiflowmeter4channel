@@ -1,7 +1,7 @@
 import serial
 import re
 
-/# Sensor data in ppl (pulses per liter)
+# Sensor data in ppl (pulses per liter)
 flow1_ppl = 450.
 flow2_ppl = 450.
 flow3_ppl = 450.
