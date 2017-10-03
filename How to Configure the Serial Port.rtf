@@ -1,0 +1,175 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red242\green242\blue242;\red0\green0\blue0;\red47\green180\blue29;
+\red64\green11\blue217;\red0\green0\blue163;\red178\green178\blue178;\red133\green0\blue2;\red223\green223\blue223;
+}
+{\*\expandedcolortbl;;\csgray\c95825;\csgray\c0\c84000;\cssrgb\c20239\c73899\c14948;
+\cssrgb\c32309\c18668\c88228;\cssrgb\c0\c0\c70000;\cssrgb\c75000\c75000\c75000;\cssrgb\c60000\c0\c0;\cssrgb\c90000\c90000\c90000;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww15180\viewh17400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\b\fs48 \cf0 How to Configure the Serial Port
+\b0 \
+\
+
+\fs24 open a terminal and start raspi-config with superuser rights:\
+
+\fs48 \
+
+\f1\fs20 \cf2 \cb3 \CocoaLigature0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf4 pi@flowmeter\cf2 :\cf5 ~ $ \cf2 sudo raspi-config\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \cb1 \CocoaLigature1 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs20 \cf2 \cb6 \CocoaLigature0 \
+\
+\cf0 \cb7 \uc0\u9484 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9508  \cf8 Raspberry Pi Software Configuration Tool (raspi-config)\cf0  \uc0\u9500 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9488 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9474                                                                               \u9474 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9474     1 Change User Password           Change password for the default u        \u9474 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9474     2 Hostname                       Set the visible name for this Pi         \u9474 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9474     3 Boot Options                   Configure options for start-up           \u9474 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9474     4 Localisation Options           Set up language and regional sett        \u9474 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9474     \cf7 \cb8 5 Interfacing Options            Configure connections to peripher\cf0 \cb7         \uc0\u9474 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9474     6 Overclock                      Configure overclocking for your P        \u9474 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9474     7 Advanced Options               Configure advanced settings              \u9474 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9474     8 Update                         Update this tool to the latest ve        \u9474 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9474     9 About raspi-config             Information about this configurat        \u9474 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9474                                                                               \u9474 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9474                                                                               \u9474 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9474                                                                               \u9474 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9474                      <Select>                     <Finish>                    \u9474 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9474                                                                               \u9474 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9492 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9496 \cf2 \cb6 \
+\cb0 \
+\cb6 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \cb1 \CocoaLigature1 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs20 \cf2 \cb6 \CocoaLigature0 \
+\
+\cf0 \cb7 \uc0\u9484 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9508  \cf8 Raspberry Pi Software Configuration Tool (raspi-config)\cf0  \uc0\u9500 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9488 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9474                                                                               \u9474 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9474     P1 Camera                        Enable/Disable connection to the         \u9474 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9474     P2 SSH                           Enable/Disable remote command lin        \u9474 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9474     P3 VNC                           Enable/Disable graphical remote a        \u9474 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9474     P4 SPI                           Enable/Disable automatic loading         \u9474 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9474     P5 I2C                           Enable/Disable automatic loading         \u9474 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9474     \cf7 \cb8 P6 Serial                        Enable/Disable shell and kernel m\cf0 \cb7         \uc0\u9474 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9474     P7 1-Wire                        Enable/Disable one-wire interface        \u9474 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9474     P8 Remote GPIO                   Enable/Disable remote access to G        \u9474 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9474                                                                               \u9474 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9474                                                                               \u9474 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9474                                                                               \u9474 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9474                                                                               \u9474 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9474                      <Select>                     <Back>                      \u9474 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9474                                                                               \u9474 \cf2 \cb6 \
+\cf0 \cb7 \uc0\u9492 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9496 \cf2 \cb6 \
+\cb0 \
+\cb6 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \cb1 \CocoaLigature1 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs20 \cf2 \cb6 \CocoaLigature0 \
+\
+          \cf0 \cb7 \uc0\u9484 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9488 \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474  Would you like a login shell to be accessible over       \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474  serial?                                                  \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                <Yes>                  \cf7 \cb8 <No>\cf0 \cb7                 \uc0\u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9492 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9496 \cf9 \cb0  \cf2 \cb6 \
+           \cf9 \cb0                                                             \cf2 \cb6 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \cb1 \CocoaLigature1 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs20 \cf2 \cb6 \CocoaLigature0 \
+\
+          \cf0 \cb7 \uc0\u9484 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9488 \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474  Would you like the serial port hardware to be enabled?   \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                \cf7 \cb8 <Yes>\cf0 \cb7                   <No>                \uc0\u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9492 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9496 \cf9 \cb0  \cf2 \cb6 \
+           \cf9 \cb0                                                             \cf2 \cb6 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \cb1 \CocoaLigature1 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs20 \cf2 \cb6 \CocoaLigature0 \
+\
+          \cf0 \cb7 \uc0\u9484 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9488 \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474  The serial login shell is disabled                       \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474  The serial interface is enabled                          \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                           \cf7 \cb8 <Ok>\cf0 \cb7                             \uc0\u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9474                                                           \u9474 \cf9 \cb0  \cf2 \cb6 \
+          \cf0 \cb7 \uc0\u9492 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9472 \u9496 \cf9 \cb0  \cf2 \cb6 \
+           \cf9 \cb0                                                             \cf2 \cb6 \
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \cb1 \CocoaLigature1 \
+\
+Reboot your RaspberryPi\
+\
+}
