@@ -24,8 +24,8 @@ while True:
         flow4 = int(matchObj.group(5),16)
         flow1lpm = (flow1/flow1_ppl*30.)
         flow2lpm = (flow2/flow2_ppl*30.)		
-        flow3lpm = (flow1/flow3_ppl*30.)
-        flow4lpm = (flow2/flow4_ppl*30.)		
+        flow3lpm = (flow3/flow3_ppl*30.)
+        flow4lpm = (flow4/flow4_ppl*30.)		
         print "Flow 1:",'%.2f' % flow1lpm, "l/min\tFlow 2:",'%.2f' % flow2lpm, "l/min\tFlow 3:",'%.2f' % flow3lpm,"l/min\tFlow 4:",'%.2f' % flow4lpm,"l/min"       
     else:
         print "Error: Could not match data"
